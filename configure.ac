@@ -248,6 +248,9 @@ dnl AC_SUBST([AM_CXXFLAGS])
 AC_SUBST([AM_CPPFLAGS])
 AC_SUBST([AM_LDFLAGS])
 
+dnl Not strictly necessary, but helps pulling translations.
+GP_CHECK_PROG([RSYNC], [rsync], [file copying command])
+AM_CONDITIONAL([HAVE_RSYNC], [test "x$RSYNC" != xno])
 
 dnl ---------------------------------------------------------------------------
 dnl Output files
