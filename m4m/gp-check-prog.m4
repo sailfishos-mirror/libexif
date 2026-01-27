@@ -4,6 +4,7 @@ dnl | Increment the above serial number every time you edit this file.
 dnl | When it finds multiple m4 files with the same name,
 dnl | aclocal will use the one with the highest serial.
 dnl SPDX-License-Identifier: LGPL-2.0-or-later
+dnl Copyright Hans Ulrich Niedermann <hun@n-dimensional.de> 2022
 dnl
 dnl ####################################################################
 dnl GP_CHECK_PROG([TOOLVAR], [tool], [description])
