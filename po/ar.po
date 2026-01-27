@@ -1,6 +1,7 @@
 # Arabic translation for libexif.
 # Copyright (C) 2026 Lutz Mueller and others
 # This file is distributed under the same license as the libexif package.
+# SPDX-License-Identifier: LGPL-2.0-or-later
 # Zayed Al-Saidi <zayed.alsaidi@gmail.com>, 2026.
 msgid ""
 msgstr ""
